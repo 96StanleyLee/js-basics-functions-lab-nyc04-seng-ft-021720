@@ -1,7 +1,6 @@
 // Code your solution in this file!
 
 function distanceFromHqInBlocks(blocks){
-    let home = 42
     let distance 
     distance = Math.abs(42-blocks)
     return distance
