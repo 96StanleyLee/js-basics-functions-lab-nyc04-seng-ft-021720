@@ -27,10 +27,10 @@ function calculatesFarePrice(start, destination){
 
         fare_price = 0
     }
-    else if (distanceTravelledInFeet(start,destination) > 400 && distanceTravelledInFeet(start,destination) < 2001){
+    else if (distance > 400 && distance < 2001){
         fare_price = (distanceTravelledInFeet(start, destination)-400) * .02
     }
-    else if (distanceTravelledInFeet(start,destination) > 2000 && distanceTravelledInFeet(start, destination) < 2501){
+    else if (distance > 2000 && distance < 2501){
 
         fare_price = 25
     }
