@@ -22,7 +22,8 @@ function distanceFromHqInFeet(blocks){
 
 function calculatesFarePrice(start, destination){
     let fare_price 
-    if(Math.abs(start-destination) === 1 ){
+    let distance = distanceTravelledInFeet(start, destination)
+    if(distance === 1 ){
 
         fare_price = 0
     }
